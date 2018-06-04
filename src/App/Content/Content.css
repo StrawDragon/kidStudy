@@ -1,0 +1,14 @@
+.App-content {
+  width: 100%;
+}
+
+.Content-title {
+  position: absolute;
+  top: 10rem;
+  left: 5rem;
+  text-align: center;
+}
+
+.Content-backImage {
+  width: 100%;
+}

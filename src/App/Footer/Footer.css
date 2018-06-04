@@ -1,0 +1,16 @@
+.App-footer {
+  background-color: #222;
+  height: 40px;
+  padding: 0;
+  color: white;
+}
+
+.Footer-text {
+  margin: 0;
+  padding: 10px 0;
+  font-size: small;
+}
+
+.Footer-created-by {
+  font-size: large;
+}
