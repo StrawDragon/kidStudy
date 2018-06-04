@@ -1,3 +1,3 @@
 ## Лендинг для преподавателя по подготовке к школе
 
-За основу взят [TARS](https://github.com/tars/tars)(сборщик frontend'а любой сложности).
+В основе используется [create-react-app](https://github.com/facebook/create-react-app);
