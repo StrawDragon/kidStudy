@@ -6,12 +6,20 @@ class Header extends Component {
     return (
       <header className="App-header">
         <div className="Header-navigation" >
-          <div>
-            <h2 className="Navigation-title">Школа Элинны Лидс</h2>
+          <div className="Navigation-title">
+            Умники и Умницы
           </div>
-          <div>
-
-          </div>
+          <ul className="Navigation-menu">
+            <li className="Navigation-item">
+              <a className="Navigation-link">Предметы</a>
+            </li>
+            <li className="Navigation-item">
+              <a className="Navigation-link">Преимушества</a>
+            </li>
+            <li className="Navigation-item">
+              <a className="Navigation-link">Контакты</a>
+            </li>
+          </ul>
         </div>
       </header>
     );

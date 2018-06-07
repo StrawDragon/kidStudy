@@ -16,5 +16,50 @@
 
 .Header-navigation {
   display: flex;
+  justify-content: space-between;
   padding: 0.1rem 5rem;
+}
+
+.Navigation-title {
+  padding-top: 1rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.Navigation-menu {
+  margin: 0;
+  padding: 0;
+}
+
+.Navigation-item {
+  float: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: relative;
+  list-style: none;
+  border: 0 none;
+  margin: 0;
+  padding: 0;
+}
+
+
+.Navigation-link {
+  height: auto;
+  border-bottom: 3px solid #4a3;
+  cursor: pointer;
+  margin: 0;
+  padding: 1.5rem 1rem;
+  display: block;
+  float: left;
+  line-height: 1rem;
+  font-size: 1rem;
+  text-decoration: none;
+  border-radius: 0;
+  box-sizing: border-box;
+}
+
+.Navigation-link:hover {
+  background: forestgreen;
 }
