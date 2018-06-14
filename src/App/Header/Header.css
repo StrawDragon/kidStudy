@@ -2,9 +2,9 @@
   position: fixed;
   top: 0;
   left: 0;
-  opacity: 0.6;
-  background: #4a3;
-  height: 70px;
+  opacity: 0.9;
+  background: rgb(80, 80, 80);
+  height: auto;
   width: 100%;
   color: white;
   align-content: center;
@@ -17,7 +17,7 @@
 .Header-navigation {
   display: flex;
   justify-content: space-between;
-  padding: 0.1rem 5rem;
+  padding: 0 5rem;
 }
 
 .Navigation-title {
@@ -46,9 +46,8 @@
 
 
 .Navigation-link {
-  height: auto;
-  border-bottom: 3px solid #4a3;
   cursor: pointer;
+  height: 100%;
   margin: 0;
   padding: 1.5rem 1rem;
   display: block;
@@ -60,6 +59,10 @@
   box-sizing: border-box;
 }
 
+.link-selected {
+  border-bottom: 2px solid white;
+}
+
 .Navigation-link:hover {
-  background: forestgreen;
+  background: rgb(70, 70, 70);
 }
