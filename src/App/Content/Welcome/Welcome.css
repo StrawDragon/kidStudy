@@ -2,17 +2,22 @@
   margin: 0;
   display: grid;
   grid-template-columns: 50% 50%;
+  background: rgb(80, 130, 80);
+  background-image:
+    repeating-linear-gradient(90deg, rgba(255, 255, 255, .09), rgba(255, 255, 255, .09) 1px, transparent 0, transparent 25px),
+    repeating-linear-gradient(0deg, rgba(255, 255, 255, .09), rgba(255, 255 ,255, .09) 1px, transparent 0, transparent 25px);
   padding: 4rem 3rem 1rem 3rem;
 }
 
 .Welcome-title {
   text-align: left;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
 }
 
 .Welcome-text {
   text-align: left;
-  font-size: 1rem;
+  font-size: 1em;
+  line-height: 1.5em;
 }
 
 .Welcome-left {
@@ -37,7 +42,7 @@
   background: transparent;
   border: 0;
   text-align: left;
-  font-size: 1.5rem;
+  font-size: 2rem;
   padding: 0;
   margin: 0;
   color: white;

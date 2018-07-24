@@ -10,7 +10,7 @@ class Welcome extends Component {
           <img className="Welcome-banner" src={cartoonChildrenSittingAtSchool} alt="child" />
         </div>
         <div className="Welcome-right">
-          <h1 className="Welcome-title">Детский центр развития "Умники и Умницы"</h1>
+          <h1 className="Welcome-title">Мамы и Папы!</h1>
           <div className="Welcome-text">
             <p>Для того, чтобы Ваш ребёнок успешно адаптировался к школе, необходимо
               посещение специальных подготовительных занятий в детской группе: в первую
