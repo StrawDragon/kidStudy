@@ -8,6 +8,11 @@
 
 # production
 /build
+/dev
+/markup
+
+# idea
+/.idea
 
 # misc
 .DS_Store
