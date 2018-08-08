@@ -2,10 +2,11 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://strawdragon.github.io/kidStudy/",
+  "homepage": "https://strawdragon.github.io/kidStudy/",
   "dependencies": {
-    "react": "^16.4.0",
-    "react-dom": "^16.4.0",
+    "gh-pages": "1.2.0",
+    "react": "16.4.0",
+    "react-dom": "16.4.0",
     "react-scripts": "1.1.4"
   },
   "scripts": {
@@ -17,6 +18,6 @@
     "deploy": "gh-pages -d build"
   },
   "devDependencies": {
-    "gh-pages": "^1.2.0"
+    "gh-pages": "1.2.0"
   }
 }
