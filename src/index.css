@@ -4,4 +4,5 @@ body {
   font-family: sans-serif;
   display: grid;
   grid-template-columns: 100%;
+  background: yellow;
 }

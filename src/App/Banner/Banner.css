@@ -1,3 +1,30 @@
-.App-content {
-  width: 100%;
+.App-banner {
+  width: 60%;
+  padding: 0 20%;
+}
+
+.Banner-header {
+  color: #993499;
+  font-size: 4rem;
+  text-shadow:
+          white 5px 5px 0, white -5px -5px 0,
+          white -5px 5px 0, white 5px -5px 0;
+  font-weight: 900;
+  margin: 0;
+}
+
+.Banner-good {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.Banner-kids {
+  color: #993499;
+  font-size: 2.5rem;
+  text-shadow:
+          white 3px 3px 0, white -3px -3px 0,
+          white -3px 3px 0, white 3px -3px 0;
+  font-weight: 800;
+  margin: 0;
 }
